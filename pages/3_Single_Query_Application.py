@@ -2,10 +2,10 @@
 # load_dotenv()                           # Loads all the env varibles.
 
 import streamlit as st
-import os
+# import os
 import google.generativeai as genai
-import pyfiglet                         # Optional, for the banner. Can be used while running locally.
-import re                               # For the regular expression based cleaning of the output text.
+# import pyfiglet                         # Optional, for the banner. Can be used while running locally.
+# import re                               # For the regular expression based cleaning of the output text.
 
 # If you are using Streamlit and hosting it then you might want to uncomment this and comment the next line.
 api_key = st.secrets['API_KEY']
